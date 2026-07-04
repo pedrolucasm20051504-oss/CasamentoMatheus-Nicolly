@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   if (countdownIds.days && countdownIds.hours && countdownIds.minutes && countdownIds.seconds) {
-    // Horário oficial do convite em Brasília: 13/09/2026 às 11:00.
-    const targetDate = new Date("2026-09-13T11:00:00-03:00").getTime();
+    // Horário oficial do convite em Brasília: 13/09/2026 às 10:30.
+    const targetDate = new Date("2026-09-13T10:30:00-03:00").getTime();
 
     const two = (n) => String(n).padStart(2, "0");
 
