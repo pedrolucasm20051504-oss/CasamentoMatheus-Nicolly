@@ -321,7 +321,9 @@ a{color:inherit}
 
 .names h1{
   margin:0;
-  font-family:"Bulgattie","Allura","Great Vibes",cursive;
+  font-family:"Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
   font-weight:400;
   font-size:clamp(78px,10.5vw,118px);
   line-height:1.02;
